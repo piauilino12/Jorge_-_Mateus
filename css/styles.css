@@ -1,0 +1,145 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f0808;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 35px;
+}
+
+.main-paragraphy{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* imagem destaque */
+
+.image-destaque{
+    text-align: center;
+    transition: all ease-in-out 0.3s;/* velocidade que o zoom de trasição(volta)*/
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.image-destaque:hover{
+    transform: scale(1.1); /* zoom */
+    transition: all ease-in-out 0.3s; /* velocidade da transição zoom*/
+}
+
+.biografhy-container{
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: 2px dashed #ddd;
+    border-bottom: 2px dashed #ddd;
+}
+
+.biografhy-container a{
+    color: red;
+    text-decoration: none;
+}
+
+.first-hit{
+    background-color: #141414;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.first-hit a{
+    color: red;
+    text-decoration: none;
+}
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 20px 5px;
+    margin: 20px 0px 5px 0px; 
+    border-top: 10px solid rgb(88, 88, 88);  
+    border-radius: 0px 0px 20px 20px; 
+    
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.quotes-container p{
+    font-style: italic;
+    margin-bottom: 2px;
+}
+#jm{
+    font-size: 20px;
+    text-align: center;
+}
+
+.letters{
+    font-style: italic;
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    border-top: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+}
+
+.container-img img{
+    width: 450px;
+    transition: all ease-in-out 0.3s;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.container-img img:hover{
+    width: 450px;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+.img-bold{
+    margin: 25px 150px;
+    padding: 25px  00px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    border: 5px solid #ddd;
+    outline: 5px solid black;
+    
+}
+
+.curiosities{
+    background-color: #ddd;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
+}
+.curiosities li{
+    height: 25px;
+}
+
